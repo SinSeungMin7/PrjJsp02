@@ -12,7 +12,7 @@
  	String url    = "jdbc:oracle:thin:@127.0.0.1:1521:xe";
  	String dbuid  = "sky";
  	String dbpwd  = "1234";
- 	
+ 	 
  	Class.forName(driver);  
  	// jsp 에서는 throw 안해도 에러가 나지 않는다
  	Connection         conn = DriverManager.getConnection(url, dbuid, dbpwd); // CTRL + SHIFT + M  : jsp 에서 씀
