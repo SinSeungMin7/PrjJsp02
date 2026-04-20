@@ -10,7 +10,7 @@
     request.setCharacterEncoding("utf-8"); // 인코딩 형식을 한글파일로 설정하기 위해 (설정하지 않았을시 깨져보일수 있기 때문) 
 	String   userid     =   request.getParameter("userid");  // request : 브라우저가 서버로 보낸 요청 객체 사용자가 입력한 id,name,email 이 있다
 	String   username   =   request.getParameter("username");
-	String   email      =   request.getParameter("email");
+	String   email      =   request.getParameter("email");    // request : 받는것, reponse : 내보내는것
 
 	// db 에 저장
 	DBHandler  db       =   new DBHandler(); // DBHandler 를 db로 정의
